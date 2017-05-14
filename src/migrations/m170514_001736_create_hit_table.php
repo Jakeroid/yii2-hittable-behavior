@@ -3,7 +3,7 @@
 use yii\db\Migration;
 
 /**
- * Handles the creation of table `hits`.
+ * Handles the creation of table `hit`.
  */
 class m170514_001736_create_hit_table extends Migration
 {
@@ -18,7 +18,7 @@ class m170514_001736_create_hit_table extends Migration
         }
 
         $this->createTable($this->tableName, [
-            'hit_id' => $this->primaryKey(),
+            'hit_id' => $this->primaryKey()->unsigned(),
             'user_agent' => $this->string()->notNull(),
             'ip' => $this->string()->notNull(),
             'target_group' => $this->string()->notNull(),

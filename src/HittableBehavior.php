@@ -25,12 +25,12 @@ use yii\db\IntegrityException;
 use yii\db\Query;
 
 /**
- * HitCountableBehavior
+ * HittableBehavior
  *
  * @property ActiveRecord $owner
  *
- * @author Aleksey Bernackiy <usualdesigner@gmail.com>
  * @author Ivan Karabadzhak <jakeroid.s@gmail.com>
+ * @author Aleksey Bernackiy <usualdesigner@gmail.com>
  */
 class HittableBehavior extends Behavior
 {
