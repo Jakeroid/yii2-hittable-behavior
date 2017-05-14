@@ -1,0 +1,32 @@
+{
+  "name": "jakeroid/yii2-hittable-behavior",
+  "description": "Hittable behavior for entities.",
+  "keywords": [
+    "yii2",
+    "hit",
+    "behavior"
+  ],
+  "homepage": "https://github.com/Jakeroid/yii2-hittable-behavior",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/Jakeroid/yii2-hittable-behavior/issues",
+    "source": "https://github.com/Jakeroid/yii2-hittable-behavior"
+  },
+  "authors": [
+    {
+      "name": "Ivan Karabadzhak",
+      "email": "iam@jakeroid.com",
+      "homepage": "http://jakeroid.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "jakeroid\\yii2\\behaviors": "src"
+    }
+  },
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "^2.0.11"
+  }
+}
