@@ -8,7 +8,7 @@
   ],
   "homepage": "https://github.com/Jakeroid/yii2-hittable-behavior",
   "type": "yii2-extension",
-  "license": "MIT",
+  "license": "BSD-3-Clause",
   "support": {
     "issues": "https://github.com/Jakeroid/yii2-hittable-behavior/issues",
     "source": "https://github.com/Jakeroid/yii2-hittable-behavior"
@@ -16,13 +16,13 @@
   "authors": [
     {
       "name": "Ivan Karabadzhak",
-      "email": "iam@jakeroid.com",
+      "email": "jakeroid.s@gmail.com",
       "homepage": "http://jakeroid.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "jakeroid\\yii2\\behaviors": "src"
+      "jakeroid\\yii2\\behaviors\\": "src"
     }
   },
   "require": {
